@@ -1,0 +1,221 @@
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*  <<Flooring Program>>
+* 1. Display Orders
+* 2. Add an Order
+* 3. Edit an Order
+* 4. Remove an Order
+* 5. Export All Data
+* 6. Quit
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+1. Display Orders
+
+    1. Display orders of date
+        Enter date (MM/DD/YYYY): *User enters date*
+        // If invalid input:
+            Please enter a proper date.
+
+        // If orders don't exist for that date: (Can be exception)
+            ERROR: No orders took place on that date.
+
+        // Display order layout
+        Order #: _
+        Customer: ________
+        State: __
+        Tax Rate: _.__%
+        Product: ____
+        Area: _.__
+        Cost per sq ft: $_.__
+        Labor Cost per sq ft: $_.__
+        MaterialCost: $_.__
+        LaborCost: $_.__
+        Tax: $_.__
+        Total: $_.__
+
+        ...
+        
+    2. Display specific order
+        Enter date (MM/DD/YYYY): *User enters date*
+        // If invalid input:
+            Please enter a proper date.
+
+        Enter order number: *User enters order #*
+        // If invalid input:
+            Please enter a number.
+
+        // If that order doesn't exist (Exception)
+            ERROR: No order exists.
+
+        // Display order
+        Order #: _
+        Customer: ________
+        // and the rest
+
+    Please hit enter to return to menu.
+
+2. Add an Order
+
+    Order Date (MM/DD/YYYY): *User enters date*
+    // If date is before today:
+        ERROR: Order date must be today or after.
+    // If date is invalid:
+        ERROR: Please enter an appropriate date.
+
+    Customer Name: *User enters String*
+
+    Choose a state (1-?):
+    1. State 1
+    2. State 2
+    ...
+    
+    *User chooses state*
+    // If outside of range:
+        ERROR: Please choose 1-?.
+    // If invalid input:
+        ERROR: Please enter numbers only.
+    
+    Choose a product (1-?):
+
+    1. Product Type, Cost per sq ft: $_.__, Labor Cost per sq ft: $_.__
+    2. Product Type, Cost per sq ft: $_.__, Labor Cost per sq ft: $_.__
+    ...
+
+    *User chooses product*
+    // If outside of range:
+        ERROR: Please choose 1-?.
+    // If invalid input:
+        ERROR: Please enter numbers only.
+
+    Area (must be at least 100 sq ft): *User enters area*
+    // If less than 100:
+        ERROR: Please enter an area at least 100 sq ft.
+    // If invalid input:
+        ERROR: Please enter numbers and decimals only.
+
+    Your order:
+    Customer: ________
+    // and the rest
+    
+    Place order? (y/n)
+    // If y:
+        Order #_ successfully added.
+    // If n:
+        Order cancelled.
+    Please hit enter to return to menu.
+
+3. Edit an Order
+
+    Enter date (MM/DD/YYYY): *User enters date*
+    Enter order number: *User enters order #*
+
+    // If that order doesn't exist
+        ERROR: No order exists.
+
+    // Display order
+    Order #: _
+    Customer: ________
+    // and the rest
+    
+    Choose a field to edit, or enter 0 to exit:
+    1. Customer name
+    2. State
+    3. Product
+    4. Area
+
+    // CUSTOMER NAME:
+    Customer name: ________
+    Enter new customer name: *User enters String*
+    Successfully changed customer name.
+
+    // STATE:
+    Current state: __
+    Choose a state (1-?):
+
+    1. State 1
+    2. State 2
+    ...
+    
+    *User chooses state*
+    // If outside of range:
+        ERROR: Please choose 1-?.
+    // If invalid input:
+        ERROR: Please enter numbers only.
+
+    // PRODUCT:
+    Current product: ____
+    Choose new product (1-?):
+    
+    1. Product Type, Cost per sq ft: $_.__, Labor Cost per sq ft: $_.__
+    2. Product Type, Cost per sq ft: $_.__, Labor Cost per sq ft: $_.__
+    ...
+
+    *User chooses product*
+    // If outside of range:
+        ERROR: Please choose 1-?.
+    // If invalid input:
+        ERROR: Please enter numbers only.
+    
+    Successfully changed product.
+
+    // AREA
+    Current area: _.__ sq ft
+    Enter new area (must be at least 100 sq ft): *User enters new area*
+    // If less than 100:
+        ERROR: Please enter an area at least 100 sq ft.
+    // If invalid input:
+        ERROR: Please enter numbers and decimals only.
+    Successfully changed area.
+
+    Your updated order:
+    Order #: _
+    Customer: ________
+    // and the rest
+
+    Save order? (y/n)
+    // If y:
+        Order successfully changed.
+    // If n:
+        Changes deleted.
+    Please hit enter to return to menu.
+
+4. Remove an Order
+    
+    Enter date (MM/DD/YYYY): *User enters date*
+    // If invalid input:
+        Please enter a proper date.
+
+    Enter order number: *User enters order #*
+    // If invalid input:
+         lease enter a number.
+
+    // If that order doesn't exist
+        ERROR: No order exists.
+
+    // Display order
+    Order $: _
+    Customer: ________
+    // and the rest
+
+    Do you wish to remove this order? (y/n):
+        // If y:
+        Are you sure? (y/n):
+            // If y:
+            Successfuly removed order.
+        // If n:
+            Remove cancelled.
+
+    Please hit enter to return to menu.
+
+5. Export All Data
+
+    Data successfully exported.
+    (Notify any exceptions)
+    Please hit enter to return to menu.
+
+6. Quit
+   
+    Good bye!
+
+    
+    
+    

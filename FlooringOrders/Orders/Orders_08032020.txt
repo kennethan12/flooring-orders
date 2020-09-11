@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Bob Smith,KY,6.00,Wood,101.00,12.50,9.25,1262.50,934.25,131.81,2328.56

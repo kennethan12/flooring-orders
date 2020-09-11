@@ -1,0 +1,15 @@
+ProductType,CostPerSquareFoot,LaborCostPerSquareFoot
+Wood,12.5,9.25
+Laminate,4.5,9.8
+Tile,1.5,14.3
+Mosaic Tile,18.5,49.25
+Marble,88.73,34.25
+Granite,72.5,29.25
+Carpet,12.5,6.3
+Bamboo,18.5,9.25
+Straw,1.8,3.25
+Dirt,0.78,3.33
+Trampoline,20.78,13.33
+Disco Light Up Panels,40.78,23.33
+Asphalt,10.78,13.33
+Distressed Red Oak,18.57,23.33

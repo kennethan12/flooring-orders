@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total,OrderDate
+1,Elon Musk,CA,25.00,Carpet,200.00,2.25,2.10,450.00,420.00,217.50,1087.50,01-01-2020
+2,Jeff Bezos,TX,4.45,Laminate,350.00,1.75,2.10,612.50,735.00,59.96,1407.46,01-01-2020
+1,Tim Cook,KY,6.00,Tile,264.52,3.50,4.15,925.82,1097.76,121.41,2144.99,01-02-2020

@@ -1,0 +1,15 @@
+StateAbbreviation,StateName,TaxRate
+KY,Kentucky,6
+WA,Washington,9.25
+OH,Ohio,7.14
+HI,Hawaii,4.35
+AK,Alaska,1.76
+RI,Rhode Island,7
+TX,Texas,8.19
+TN,Tennessee,9.46
+DN,Denial,9.46
+II,Insanity,9.46
+LO,LoLoLolo,9.46
+ZZ,Slumberland,9.46
+WY,Wysconsoming,9.46
+XX,Moonshine,9.46
